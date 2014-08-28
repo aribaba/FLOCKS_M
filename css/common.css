@@ -592,6 +592,19 @@ margin: 15px 5px 10px;
 
 /* カテゴリーボタン */
 
+
+#article-top .recommend {
+	background: #222;
+}
+
+#header_rapper .recommend {
+	border-bottom: 3px solid #222;
+}
+
+.recommend .page-title {
+		background: #222;
+}
+
 #article-top .mans {
 	background: #428abd;
 }

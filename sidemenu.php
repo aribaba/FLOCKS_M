@@ -1,4 +1,4 @@
-
+<div id="side_menu">
 <script>
 	$(function(){
 		$("#menu .ac_open").on("click",function() {
@@ -34,4 +34,6 @@ if(is_single()) {
 				</li>
 			</ul>
 	</nav>
+	</div> <!-- side_menu -->
+
 </div>

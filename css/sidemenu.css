@@ -24,7 +24,7 @@
 	overflow: hidden;
 }
 
-label {
+#side_menu label {
 	cursor: pointer;
 	position: fixed;
 	top: 0;
