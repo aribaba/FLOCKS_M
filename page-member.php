@@ -101,4 +101,5 @@ Template Name: member
         ?>
 </div>
 </div>
+<?php include_once("sidemenu.php") ?>
 <?php get_footer(); ?>

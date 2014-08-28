@@ -10,5 +10,5 @@ endif;
 ?>
 </div>
 <!--contents-body end-->
-
+<?php include_once("sidemenu.php") ?>
 <?php get_footer(); ?>

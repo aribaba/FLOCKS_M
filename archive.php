@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 <div id="contents-body">
-	<?php
-		if (!is_front_page() && function_exists('bread_crumb')) :
-			bread_crumb('navi_element=nav&elm_id=bread-crumb');
-		endif;
-		?>
-	<header class="page-header">
+
+	<div id="header_rapper">
+	<header id="archive-header" class="<?php if ( is_category() || is_single())
+ { ?><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat -> category_nicename; } ?> <?php }
+  ?>">
 		<h1 class="page-title">
 			<?php
 			if(is_author()) :
@@ -16,6 +15,8 @@
 		?>
 		</h1>
 	</header>
+		</div>
+	<div id="article-top">
 	<div class="post">
 <?php
 if (have_posts()) :
@@ -26,8 +27,9 @@ if (have_posts()) :
 endif;
 ?>
 </div>
+</div>
 <!--post end-->
 </div>
 <!--contents-body end-->
-
+<?php include_once("sidemenu.php") ?>
 <?php get_footer(); ?>

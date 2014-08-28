@@ -927,3 +927,21 @@ line-height: 40px;
 	width: 90px;
 	display: inline-block;
 }
+
+
+#contents-body #archive-header {
+	height: 40px;
+	font-weight: normal;
+	color: #Fff;
+	width: 741px;
+	margin: 0 auto;
+}
+
+#contents-body #archive-header .page-title {
+	font-size: 16px;
+	line-height: 45px;
+	padding: 0px 10px;
+	display: inline-block;
+	font-weight: normal;
+	border-radius: 5px 5px 0 0;
+}

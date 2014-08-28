@@ -121,16 +121,10 @@ window.onload = function(){
 	<!-- header -->
 <header id="header">
 	<div id="header-contents">
-    <?php if (!is_page(21)) { ?>
+  <!-- サイドドロワー -->
 
-  <div id="go_top">
-    <a href="http://flocks.jp/"></a>
-  </div>
 
-  <?php
-}
 
-?>
 
 	<div id="site-logo">
 
@@ -173,8 +167,7 @@ echo $current_user->user_login;
 
 </div>
 
-      <a href="http://flocks.jp/writer/"><li>ライター紹介</li></a>
-      <a href="http://flocks.jp/want-read-list/"><li>読みたい漫画リスト</li></a>
+
     </ul>
   </nav>
 </div>
