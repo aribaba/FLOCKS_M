@@ -43,7 +43,7 @@
 				<?php
 echo mb_strimwidth($post->post_title, 0, 100, "...");
 ?></h1>
-<ul class="sns-counts-num">
+<!-- <ul class="sns-counts-num">
                 <li class="fb-counts-num">
                     <div id="socialarea_facebook_<?php echo $post->ID;?>"><p>F:&nbsp;<span class="count"></span></p></div>
                 </li>
@@ -56,13 +56,13 @@ echo mb_strimwidth($post->post_title, 0, 100, "...");
 
 
 
-        </ul>
-        <script type="text/javascript">
+        </ul> -->
+        <!-- <script type="text/javascript">
         get_social_count_facebook("<?php the_permalink(); ?>", "socialarea_facebook_<?php echo $post->ID;?>");
         get_social_count_twitter("<?php the_permalink(); ?>", "socialarea_twitter_<?php echo $post->ID;?>");
         get_social_count_hatebu("<?php the_permalink(); ?>", "socialarea_hatebu_<?php echo $post->ID;?>");
-</script>
-
+        </script>
+         -->
 <span class="<?php $cat = get_the_category(); $cat = $cat[0];echo $cat -> category_nicename; ?>"
    id="balloon-3-top-right">
              <?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?>
