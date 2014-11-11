@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+#contents-body-flocks {
+	width: 90%;
+	float: right;
+	position: relative;
+	margin: 18px 0;
+	padding-bottom: 30px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contents-body-flocks h1 {
+	font-size: 16px;
+}
+
+#contents-body-flocks article p {
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 90px;
+	text-align: left;
+
+}
+
+#contents-body-flocks .page-header h1{
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: normal;
+}
+
+#contents-body-flocks .page-thumbnail {
+	float: left;
+	margin-right: 15px;
+}
+
+#contents-body-flocks .page-header .social-buttons {
+	list-style: none;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+#contents-body-flocks .page-header .social-buttons li {
+	padding-right: 30px;
+	float: left;
+}
+
+#contents-body-flocks .page-header {
+	margin-bottom: 20px;
+	border-bottom: solid 1px #ddd;
+	background: #f8f8f8;
+	padding: 30px 10px 30px 10px;
+	overflow: hidden;
+
+}
+
+#contents-body-flocks .entry-content .entry-cover {
+	width: 330px;
+	float: left;
+}
+
+#contents-body-flocks .entry-content .summary p {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	display: inline;
+}
+
+#contents-body-flocks .entry-content .summary {
+	background: #ddd;
+		width: 95%;
+		margin: 10px auto;
+		padding: 15px;
+		-webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+#contents-body-flocks .entry-content {
+	padding: 30px 50px;
+}
+
+#contents-body-flocks .bread_crumb ul li{
+	float: left;
+	list-style-type: none;
+	font-size: 14px;
+	color: #fff;
+
+}
+
+#contents-body-flocks .bread_crumb ul li a{
+	color: #fff;
+}
+
+#contents-body-flocks .bread_crumb ul li a:hover{
+	color:#f7f7f7;
+	text-decoration: underline;
+}
+
+#contents-body-flocks .bread_crumb ul{
+	overflow: hidden;
+}
+
+#contents-body-flocks .bread_crumb {
+	padding: 10px;
+	overflow: hidden;
+	background: #444;
+	-webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contents-body-flocks .bread_crumb li.sub {
+padding-left: 10px;
+}
+
+#contents-body-flocks .bread_crumb li.sub:before {
+letter-spacing: 10px;
+content:">";
+}
+#contents-body-flocks article .cover-image {
+display: block;
+margin: 0 auto;
+width: 50%;
+
+}
