@@ -93,8 +93,23 @@
         </header>
 
         <div class="entry-content">
+        <div id="the-text">
             <?php the_content(); ?>
+            </div>
         </div>
+        <?php 
+        $custum_fields_standing_reading = get_post_meta($post->ID , 'stand_reading_url' , true);
+        if (!empty($custum_fields_standing_reading)){
+            ?>
+            <div id="stand-reading-frame">
+            <a href="<?php echo $custum_fields_standing_reading; ?>" onclick="pageTracker._trackEvent('stand-reading', 'click', 'parmalink',0, true);" id="stand-reading" target=”_blank”>
+            <P>試し読みはこちら</P>
+            </a>
+            </div>
+        <?php
+        }
+         ?>
+
 
 <div id="favorite-link">
     <?php wpfp_link() ?>
